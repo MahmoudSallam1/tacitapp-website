@@ -1,0 +1,33 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .search-button > a {
+        margin: 0 40px;
+    }
+    .menu_area #nav .nav-link {
+        padding: 0 10px;
+    }
+    .search-form-area #search {
+        width: 450px;
+    }
+    .hero-slides .owl-next {
+        right: 20px;
+    }
+    .hero-slides .owl-prev {
+        left: 20px;
+    }
+    .workflow-slides-area {
+        top: 0;
+        padding-bottom: 100px;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+
+    .workflow-slides-area {
+        top: 50px;
+        padding-bottom: 150px;
+    }
+}

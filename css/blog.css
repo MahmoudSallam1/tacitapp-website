@@ -1,0 +1,49 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Gelasio|Roboto|Rubik&display=swap');
+
+.blog-heading {
+    color: #fff;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 370%;
+}
+
+/* rgba(249, 236, 49, 1) */
+.blog {
+    height: 60vh;
+    background-image:  linear-gradient(to bottom, #3CC4DE, #3CC4DE);
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+
+.blog-text {
+    color: #3CC4DE;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.blog-paragraph {
+    font-size: 110%;
+    color: #4F4F4F;
+    font-family: "Rubik";
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300;
+
+}
+
+.blog__img {
+    width: 80%;
+    padding: 20px;
+}
+
+.blog__justify .col p {
+    text-align: justify;
+}
