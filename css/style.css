@@ -809,6 +809,7 @@ modules------------------------- */
 
 
 .commonButton4 {
+    background-color: #fff;
     color: #3CC4DE !important;
     text-transform: uppercase;
     text-decoration: none;
@@ -824,6 +825,8 @@ modules------------------------- */
     border-color: #3CC4DE !important;
     transition: all 0.4s ease 0s;
 }
+
+
 
 
 .submit__button {
@@ -844,4 +847,19 @@ modules------------------------- */
 
 button:focus {
     outline: 0 !important;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
+
+  .close:hover{
+      color:#3CC4DE ;
+  }
+
+
+.modal-body{
+    
 }
