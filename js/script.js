@@ -173,7 +173,8 @@ function onSubmitClick() {
   };
   $.ajax(settings).done(function (response) {
     console.log(response);
-    $('.modal__sub').show();
+    console.log(userInput);
+   
   
 
 
@@ -219,6 +220,7 @@ function getInputValue() {
     }
     $.ajax(settings).done(function (response) {
       console.log(response);
+
     });
     
   }
