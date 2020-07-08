@@ -3,9 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Kulim+Park|Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Gelasio|Roboto|Rubik&display=swap');
 
+
+@font-face {
+    font-family: Bebas-Neue;
+    src: url('../fonts/Bebas-Neue.otf');
+}
+
 .blog-heading {
     color: #fff;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas-Neue';
     letter-spacing: 3px;
     text-align: center;
     font-size: 370%;
@@ -24,7 +30,7 @@
 
 .blog-text {
     color: #3CC4DE;
-    font-family: 'Bebas Neue';
+    font-family: 'Bebas-Neue';
     letter-spacing: 3px;
     word-spacing: 5px;
 }
