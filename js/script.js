@@ -227,3 +227,18 @@ function getInputValue() {
   const button = document.querySelector('#sendRequest');
   button.addEventListener('click', getInputValue);
   // ========================end of adding contact form backend===============================
+
+
+
+  // ==========Start of Scroll to anchor ID using scrollTO event==================
+// const smoothScroll = () => {
+//   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+//     anchor.addEventListener("click", function (el) {
+//       el.preventDefault();
+//       document.querySelector(this.getAttribute("href")).scrollIntoView({
+//         behavior: "smooth",
+//       });
+//     });
+//   });
+// };
+// smoothScroll();

@@ -1,0 +1,183 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Kulim+Park|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Gelasio|Roboto|Rubik&display=swap');
+
+
+@font-face {
+    font-family: Bebas-Neue;
+    src: url('../fonts/Bebas-Neue.otf');
+}
+
+.blog-heading {
+    color: #fff;
+    font-family: 'Bebas-Neue';
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 370%;
+}
+
+
+
+/* rgba(249, 236, 49, 1) */
+.blog {
+    height: 65vh;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(/images/sand/bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/sand/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    /* clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); */
+}
+
+
+.blog-text {
+    color: #3CC4DE;
+    font-family: 'Bebas-Neue';
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.blog-paragraph {
+    font-size: 110%;
+    color: #4F4F4F;
+    font-family: "Rubik";
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300;
+
+}
+
+
+.heading-sand{
+    color: #4F4F4F;
+    font-size: 25px;
+}
+
+.second-heading-sand{
+    color: #6F6F6F;
+    font-size: 21px;
+    font-weight:300;
+}
+
+.row-gray{
+    background-color:#F2F2F2 ;
+}
+
+
+.common_button {
+    background-color: #FD6120;
+    border-radius: 3px;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 20px 7px 20px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.common_button:hover {
+    color: #ffffff !important;
+    background: #3CC4DE;
+    border-color: #3CC4DE !important;
+    transition: all 0.4s ease 0s;
+}
+
+.pres_butt{
+    background-color:#3CC4DE ;
+}
+
+.pres_butt:hover{
+    background-color:#2C323A ;
+}
+
+.repor_butt {
+    background-color: #2C5871;
+}
+
+.prom_butt{
+    background-color: #DE3F18;
+}
+
+.dash_butt{
+    background-color: #3E77DB;
+}
+
+
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    .blog-heading {
+        color: #fff;
+        font-family: 'Bebas-Neue';
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 250%;
+    }
+
+}
+
+
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.heading-sand2{
+    color: #fff;
+    font-size: 25px;
+}
+
+.second-heading-sand2{
+    color: #fff;
+    font-size: 21px;
+    font-weight:300;
+}
+
+
+.sections-vp{
+    height: 90vh;
+}
+
+.another-section{
+    height: 90vh;
+}
+
+.par{
+    color: #6F6F6F;
+
+}
+
+
+
+section.your-active-class {
+    color: #fff !important;
+    background-image: linear-gradient(135deg, rgba(44, 50, 58, 1) 0%, rgba(60, 196, 222, 1) 100%);
+}
+
+
+section.your-active-class .landing__container::before {
+    opacity: 1;
+    animation: rotate 4s linear 0s infinite forwards;
+}
+
+section.your-active-class .landing__container::after {
+    opacity: 1;
+    animation: rotate 5s linear 0s infinite forwards reverse;
+}
+
+/* Section Active Styles Keyframe Animations */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) translate(-1em) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translate(-1em) rotate(-360deg);
+    }
+}
+

@@ -51,5 +51,18 @@
 }
 
 .blog__justify .col p {
-    text-align: justify;
+    text-align: left;
+}
+
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    .blog-heading {
+        color: #fff;
+        font-family: 'Bebas-Neue';
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 250%;
+    }
+
 }
